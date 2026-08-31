@@ -61,3 +61,21 @@ cour.replace('Python', 'JavaScript') # is to replace a string with another strin
 
 'python' in cour # this give us a boolean Trou or False is to check if the sting exists in a particular string
 
+#5 ARITHMETIC OPERATIONS
+#the operations signs are + - * /
+x = 10
+x += 3 # is equal to x = x + 3
+
+#operator Precedence
+x = 10 + 3 * 2 # 16
+#these are the priorite of calculation
+#parenthesis
+#exponentiation 2 ** 3
+#multiplication or division
+#addition or substraction
+
+#Math Functions 
+x = 2.9
+round(x)# it rounds to the nearest integer(3)
+abs(-2.9)# always returns a positive number not matter what 
+import math # to perform well math we import math then use all its methods
