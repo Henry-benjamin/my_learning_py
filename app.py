@@ -7,8 +7,8 @@ is_published = True #boolean
 #print(price) # print is for output.
 
 ##2 INPUT FUNCTION AND OUTPUT FUNCTION
-name = input("what is your name? ") #input gets the inform form a user
-favorite_color = input("what is your favorite color? ")
+#name = input("what is your name? ") #input gets the inform form a user
+#favorite_color = input("what is your favorite color? ")
 #print(name + " likes " + favorite_color)
 
 #3 TYPE CONVERSION
@@ -18,14 +18,14 @@ favorite_color = input("what is your favorite color? ")
 #float() convert a str into a float number(1.6)
 #type is to checks the type of variable
 
-birth_year = input("Birth year: ") 
+#birth_year = input("Birth year: ") 
 #print(type(birth_year))
-age = 2026 - int(birth_year)
+#age = 2026 - int(birth_year)
 #print(type(age))
 #print(age)
 
-weight_lbs = input("Weight (lbs): ")
-weight_kg = int(weight_lbs) * 0.45
+#weight_lbs = input("Weight (lbs): ")
+#weight_kg = int(weight_lbs) * 0.45
 #print("your kilogram is:", + weight_kg)
 
 ##4 STRING
@@ -36,3 +36,28 @@ This treepli quotes is for
 log sentences like this.
 """
 #print(tree_quotes)
+
+#how to access index of string 
+course = 'Python for Beginners'
+#print(course[0]) # get the firts letter(P)
+#print(course[-1]) # get the last one(s)
+#print(course[0:3]) # return all the charaters foem zero to 3(pyt)
+#print(course[1:])# remove just first letter and return rest of them
+#print(course[:])# this copy the string it means the copy of the string
+
+#FORMATTED STRINGS
+first = 'Henry'
+last = 'benja'
+message = f"{first} {last} is a coder"
+#print(message) 
+
+#STRING METHODS
+cour = "Python is cool language"
+len(cour)# is a method to calculate the number of charaters in a string
+cour.upper()#this turn the whole string into the upperCase
+cour.lower()#this turns into lowercase
+cour.find('p')#find the index of character in a string
+cour.replace('Python', 'JavaScript') # is to replace a string with another string takes two arguments
+
+'python' in cour # this give us a boolean Trou or False is to check if the sting exists in a particular string
+
