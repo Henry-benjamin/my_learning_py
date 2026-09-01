@@ -103,3 +103,28 @@ if has_good_credit:
 else :
     down_payment = price * 0.2
 #print(f"Down payment: ${down_payment}")
+ 
+ # 7 LOGICAL OPERATORS
+# AND operator uesd to combine two conditions and all the conditions must be true 
+
+has_high_income =True
+has_good_credit = True
+
+if has_high_income and has_good_credit:
+    ("Eligible for loan")
+
+# OR operator is to combine two conditions and at least one is true
+has_high_incom =True
+has_good_credi = False
+
+if has_high_incom or has_good_credi:
+    ("Eligible for loan") 
+
+# NOT operator is give us a boolean true or false 
+has_higher_income =True
+has_criminal_record = False
+
+if has_higher_income and not has_criminal_record:
+    ("Eligible for loan")
+
+# COMPARISON OPERATORS
