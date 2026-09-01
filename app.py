@@ -139,12 +139,23 @@ else:
 
 #challange
 
-name_user =  input()
-chrts = len(name_user)
+#name_user =  input()
+#chrts = len(name_user)
 
-if chrts < 3:
-    print("Name must be at least 3 Characters")
-elif chrts > 50:
-    print("Name can be a maximum of 50 Characters")
+#if chrts < 3:
+    #("Name must be at least 3 Characters")
+#elif chrts > 50:
+    #("Name can be a maximum of 50 Characters")
+#else:
+    #(f" '{name_user}' Name looks good! ")
+
+# project convert weigth
+weight = int(input("Weiht: "))
+unit = input('(L)bs or (K)g: ')
+
+if  unit.upper() == 'L':
+    converted = weight * 0.45
+    print(f"You are : {converted} kilos") 
 else:
-    print(f" '{name_user}' Name looks good! ")
+    converted = weight / 0.45
+    print(f"You are : {converted} pounds")
