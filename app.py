@@ -128,3 +128,23 @@ if has_higher_income and not has_criminal_record:
     ("Eligible for loan")
 
 # COMPARISON OPERATORS
+# greater than >, lesser than <, greater or equal >= , lesser or equal <=, equality ==, != not equal;
+temperature = 35
+
+if temperature > 30:
+    ("It's a hot day")
+else:
+    ("It's not a hot day")
+
+
+#challange
+
+name_user =  input()
+chrts = len(name_user)
+
+if chrts < 3:
+    print("Name must be at least 3 Characters")
+elif chrts > 50:
+    print("Name can be a maximum of 50 Characters")
+else:
+    print(f" '{name_user}' Name looks good! ")
