@@ -176,11 +176,30 @@ while i<= 5:
 secrete_number = 9
 guess_count = 0
 guess_limit = 3
-while guess_count < guess_limit:
-    guess = int(input("Guess: "))
-    guess_count += 1
-    if guess == secrete_number:
-        print("You Won!") 
-        break
+#while guess_count < guess_limit:
+   # guess = int(input("Guess: "))
+    #guess_count += 1
+   # if guess == secrete_number:
+       # print("You Won!") 
+       # break
+#else:
+   # print("Sorry, You failed!")
+
+#CAR GAME
+
+car_instructions = '' 
+while True:
+    car_instructions = input("> ").lower()
+    if  car_instructions == "start":
+        print("Car started...Ready to go!")
+    elif car_instructions== "stop":
+        print("Car stopped.")
+    elif car_instructions == "help":
+     print("""
+start - to start the car
+stop - to stop the car
+quit - to exit""")
+    elif car_instructions == 'quit':
+     break
 else:
-    print("Sorry, You failed!")
+    print("Sorry , I dont't Understand That...!!!")
