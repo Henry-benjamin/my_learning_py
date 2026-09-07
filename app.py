@@ -187,28 +187,36 @@ guess_limit = 3
 
 #CAR GAME
 
-car_instructions = '' 
-started = False
-while True:
-    car_instructions = input("> ").lower()
-    if  car_instructions == "start":
-        if started:
-            print("Car is already started...!")
-        else:
-          started = True
-          print("Car started...Ready to go!")
-    elif car_instructions == "stop":
-        if not started:
-            print("Car is already stopped...!")
-        else:
-           started = False
-           print("Car stopped.")
-    elif car_instructions == "help":
-     print("""
-start - to start the car
-stop - to stop the car
-quit - to exit""")
-    elif car_instructions == 'quit':
-     break
-else:
-    print("Sorry , I dont't Understand That...!!!")
+# car_instructions = '' 
+# started = False
+# while True:
+    # car_instructions = input("> ").lower()
+    # if  car_instructions == "start":
+        # if started:
+            # print("Car is already started...!")
+        # else:
+        #   started = True
+        #   print("Car started...Ready to go!")
+    # elif car_instructions == "stop":
+        # if not started:
+            # print("Car is already stopped...!")
+        # else:
+        #    started = False
+        #    print("Car stopped.")
+    # elif car_instructions == "help":
+    #  print("""
+# start - to start the car
+# stop - to stop the car
+# quit - to exit""")
+    # elif car_instructions == 'quit':
+    #  break
+# else:
+    # print("Sorry , I dont't Understand That...!!!")
+
+# 9 FOR LOOPS
+price = [10, 20, 30, 40] 
+total = 0
+for item in price:
+    total += item
+#print(total)
+
