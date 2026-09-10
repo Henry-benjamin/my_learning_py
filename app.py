@@ -273,4 +273,24 @@ for item in price:
     #for item in row:
         #print(item)
 
-#12 LIST METHOD
+#12 LIST METHOD 
+#numbers = [5, 2, 1, 7, 4]
+#numbers.append(20) to add a number into a list
+#numbers.insert(0, 10) to add a number into a list, first(0) values is index at wich u want to add this item and second(10) is the item itself
+#numbers.remove(5) to remove an item from the lisst just specify an the item(5)
+#numbers.clear() remove all item from the list
+#numbers.pop() remove the last item form list
+#numbers.index(5) check an esxistance of an index and if you put the number does not exist u get an error
+# 50 in numbers is to checks if an item exist in lit this method does trow an error it gives us a boolean value
+#numbers.count(5) this acount the existance of item within a list and gives us number
+#number.sort() this is to arrange the number in order
+#number.reverse() it reversor the list
+#number.copy() just to copy the list
+
+#challenge remove all duplicate number
+numbers = [2, 4, 5, 6, 8, 4, 2, 7, 8]
+unique = []
+for number in numbers:
+    if number not in unique:
+        unique.append(number)
+print(unique)
