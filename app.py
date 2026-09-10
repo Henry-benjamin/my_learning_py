@@ -258,3 +258,19 @@ for item in price:
     #if number > max:
         #max = number
 #print(max)
+
+#11 2DEMENTION LISTS
+#matrix = [
+    #[1, 2, 3],
+    #[4, 5, 6],
+    #[7, 8, 9]
+#]
+
+#matrix[0][1] this is how we can access the item within lists
+#matrix[0][1] = 23 this is how we can modify  an item within list
+
+#for row in matrix:
+    #for item in row:
+        #print(item)
+
+#12 LIST METHOD
