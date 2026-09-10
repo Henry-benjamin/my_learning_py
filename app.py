@@ -234,9 +234,27 @@ for item in price:
         #print(a * b) 
 
 # from Tutor
-numbers = [5, 2, 5, 2, 2]
-for x_count in numbers:
-    output = ''
-    for count in range(x_count):
-        output += "x"
+#numbers = [5, 2, 5, 2, 2]
+#for x_count in numbers:
+    #output = ''
+    #for count in range(x_count):
+       # output += "x"
     #print(output)
+
+#10 LISTS
+#names = ['Henry', 'Benjamin', 'Mawazo', 'Bisheni', 'Mauwa']
+#print(names[0]) to get the first name
+#print(names[-1]) to get the last name
+#print(names[2:]) to get all the list started at index 2 to end 
+#print(names[2:4]) to get all the list started at index 2 until to index 4
+#print(names[:]) to get all the list from the beggining of the list until end
+#names[1] = 'akyamba' is to change the item
+
+#challenge to get the greater number
+
+#numbers = [2, 4, 5, 8, 20, 39, 50, 47, 51]
+#max = numbers[0]
+#for number in  numbers:
+    #if number > max:
+        #max = number
+#print(max)
