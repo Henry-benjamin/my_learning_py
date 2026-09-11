@@ -313,9 +313,28 @@ for number in numbers:
     #print("Password too short, must be more than 8 characters.")
 
 #Exam results checker
+#If the score is greater than 70, tell them they passed.
 #score = int(input("Enter your exam score: "))
 
 #if score > 70:
     #print("Congratulations, you passed!")
 #else:
    # print("Sorry, you did not pass.")
+
+#Money for books
+#Ask how much money the person has.
+#Ask how many books they want to buy and the price per book.
+#Work out the total cost.
+#Tell them whether they can afford all the books — and if not, how much more they need.
+
+money = float(input("How much money do you have? "))
+number_of_books = int(input("How many books do you want? "))
+price_per_book = float(input("Price per book? "))
+
+total_cost = number_of_books * price_per_book
+
+if money >= total_cost:
+    print("You have enough money for all the books!")
+else:
+    shortfall = total_cost - money
+    print("You need", shortfall, "more to buy all the books.")
