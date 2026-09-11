@@ -311,3 +311,11 @@ for number in numbers:
         #print("Password must contain a number")
 #else:
     #print("Password too short, must be more than 8 characters.")
+
+#Exam results checker
+#score = int(input("Enter your exam score: "))
+
+#if score > 70:
+    #print("Congratulations, you passed!")
+#else:
+   # print("Sorry, you did not pass.")
