@@ -293,4 +293,21 @@ unique = []
 for number in numbers:
     if number not in unique:
         unique.append(number)
-print(unique)
+#print(unique)
+
+#password this is from PLP program nested if conditions
+#password = input("Password: ")
+
+#if len(password) > 8:
+    #if any(char in password for char in "0123456789"):
+        #if password != password.lower():
+            #if password != password.upper():
+                #print("Password valid. Account created.")
+            #else:
+                #print("Password must contain a lowercase letter")
+        #else:
+            #print("Password must contain an uppercase letter")
+    #else:
+        #print("Password must contain a number")
+#else:
+    #print("Password too short, must be more than 8 characters.")
